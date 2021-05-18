@@ -4,3 +4,161 @@
     font-family: face;
     src: url(Winlove.ttf);
 }
+
+:root {
+    --orange: rgb(196, 103, 35);
+    --lightblue: rgb(88, 153, 197);
+}
+
+/* General Styles */
+
+h1 {
+    font-family: 'face';
+    color: var(--orange);
+}
+
+h2 {
+    margin-top: 80px;
+    color: var(--orange);
+    font-family: 'Hind Siliguri';
+    font-weight: 300;
+}
+
+p {
+    color: var(--lightblue);
+} 
+
+button {
+    font-family: 'Hind Siliguri';
+    padding: 2px 30px;
+    margin: 0px 20px;
+    outline: none;
+    border: 2px solid var(--orange);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:first-of-type {
+    margin: 0 20px 0 0;
+}
+
+button.button_solid {
+    background-color: var(--orange);
+    color: white;
+}
+
+button.button_outline {
+    color: var(--orange);
+    background-color: white;
+}
+
+.page_image {
+    box-shadow: -20px 30px 0 var(--orange);
+}
+
+/* Header */
+header {
+    background-image: url(/images/new_mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.header_under {
+    margin-bottom: 50px;
+}
+
+#header_logo {
+    max-width: 20rem;
+}
+
+#header_portrait {
+    width: 30rem;
+    margin-top: -200px;
+    box-shadow: -20px 30px 0 var(--orange);
+}
+
+/* Quote Area */
+
+.quote {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.quotations {
+    width: 100px;
+}
+
+.first_quotation {
+    margin-top: -100px;
+}
+
+.second_quotation {
+    margin-top: 80px;
+    transform: rotate(180deg);
+}
+
+#quote_p {
+    margin-top: -70px;
+    margin-left: 200px;
+    color: var(--orange);
+    font-family: 'Hind Siliguri';
+    font-weight: 300;
+    float: right;
+}
+
+/* Heading Two */
+.heading_two {
+    padding: 0 0 100px;
+}
+.heading_two h2{
+    margin-top: 200px;
+}
+
+/* CTA */
+.CTA {
+    background-color: var(--orange);
+}
+
+.CTA h2 {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.CTA p {
+    text-align: center;
+    color: white;
+}
+
+.CTA button {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* Media Queries */
+
+@media (max-width: 770px) {
+    .first_quotation, .second_quotation {
+        display: none;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .quote {
+        padding-top: 50px;
+    }
+    #quote_p {
+        margin-top: 0;
+        margin-left: 150px;
+    }
+    #header_portrait {
+        width: 20rem;
+    }
+    .heading_two h2{
+        margin-top: 0;
+    }
+}
