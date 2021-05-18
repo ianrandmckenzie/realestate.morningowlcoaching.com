@@ -139,6 +139,16 @@ header {
     margin-bottom: 50px;
 }
 
+/* Heading Four */
+
+.heading_four {
+    margin: 50px auto;
+}
+
+.heading_four h2 {
+    margin-top: 300px;
+}
+
 /* Media Queries */
 
 @media (max-width: 770px) {
@@ -160,5 +170,8 @@ header {
     }
     .heading_two h2{
         margin-top: 0;
+    }
+    .heading_four h2 {
+        margin-top: 75px;
     }
 }
