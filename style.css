@@ -71,7 +71,7 @@ button.button_outline {
 /* --------------------------- Header --------------------------- */
 
 header {
-    background-image: url(/images/new_mountain.jpg);
+    background-image: url(images/new_mountain.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ header {
 /* --------------------------- Blocks --------------------------- */
 
 .blocks {
-    background-image: url(/images/stock_bird.jpg);
+    background-image: url(images/stock_bird.jpg);
     background-repeat: no-repeat;
     background-position: 100%;
     height: 500px;
@@ -226,7 +226,7 @@ header {
 
 .heading_six {
     padding: 100px auto;
-    background-image: url(/Images/leaves4.jpg);
+    background-image: url(images/leaves4.jpg);
     background-repeat: no-repeat;
     background-position-x: 10%;
     background-position-y: 50px;
@@ -269,7 +269,7 @@ header {
 /* --------------------------- Header Eight --------------------------- */
 
 .heading_eight {
-    background-image: url(/images/stock_bird.jpg);
+    background-image: url(images/stock_bird.jpg);
     background-repeat: no-repeat;
     background-position: 80%;
     background-size: calc(10% + 15vw);
@@ -290,7 +290,7 @@ header {
 /* --------------------------- Heading Nine --------------------------- */
 
 .heading_nine {
-    background-image: url(/images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.jpg);
+    background-image: url(images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
