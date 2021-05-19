@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-/* General Styles */
+/* --------------------------- General Styles ---------------------------- */
 
 h1 {
     font-family: var(--custom-font);
@@ -68,7 +68,7 @@ button.button_outline {
     box-shadow: -20px 30px 0 var(--orange);
 }
 
-/* Header */
+/* --------------------------- Header --------------------------- */
 
 header {
     background-image: url(/images/new_mountain.jpg);
@@ -92,7 +92,7 @@ header {
     box-shadow: -20px 30px 0 var(--orange);
 }
 
-/* Quote Area */
+/* --------------------------- Quote Area --------------------------- */
 
 .quote {
     padding-top: 100px;
@@ -121,7 +121,7 @@ header {
     float: right;
 }
 
-/* Heading Two */
+/* --------------------------- Heading Two --------------------------- */
 
 .heading_two {
     padding: 0 0 100px;
@@ -131,7 +131,7 @@ header {
     margin-top: 200px;
 }
 
-/* CTA */
+/* --------------------------- CTA --------------------------- */
 
 .CTA {
     background-color: var(--orange);
@@ -153,7 +153,7 @@ header {
     margin-bottom: 50px;
 }
 
-/* Heading Four */
+/* --------------------------- Heading Four --------------------------- */
 
 .heading_four {
     margin: 50px auto;
@@ -163,7 +163,7 @@ header {
     margin-top: 300px;
 }
 
-/* Blocks */
+/* --------------------------- Blocks --------------------------- */
 
 .blocks {
     background-image: url(/images/stock_bird.jpg);
@@ -193,7 +193,7 @@ header {
     text-align: center;
 }
 
-/* CTA 2 */
+/* --------------------------- CTA 2 --------------------------- */
 
 .CTA_two {
     background-color: var(--orange);
@@ -222,7 +222,7 @@ header {
     border: 2px solid white;
 }
 
-/* Heading Six */
+/* --------------------------- Heading Six --------------------------- */
 
 .heading_six {
     padding: 100px auto;
@@ -243,7 +243,7 @@ header {
     margin-top: 500px;
 }
 
-/* Heading Seven */
+/* --------------------------- Heading Seven --------------------------- */
 
 .heading_seven h2 {
     margin-top: 50px!important;
@@ -266,7 +266,7 @@ header {
     color: white;
 }
 
-/* Header Eight */
+/* --------------------------- Header Eight --------------------------- */
 
 .heading_eight {
     background-image: url(/images/stock_bird.jpg);
@@ -287,7 +287,7 @@ header {
     width: 50%;
 }
 
-/* Heading Nine */
+/* --------------------------- Heading Nine --------------------------- */
 
 .heading_nine {
     background-image: url(/images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.jpg);
@@ -320,7 +320,7 @@ header {
     border: 2px solid white;
 }
 
-/* Footer */
+/* --------------------------- Footer --------------------------- */
 
 footer img {
     width: calc(10rem + 10vw);
@@ -345,7 +345,7 @@ footer button:hover {
     cursor: pointer;
 }
 
-/*----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 
 /* Media Queries */
 
