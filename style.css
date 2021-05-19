@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
-
 @font-face {
     font-family: face;
     src: url(Winlove.ttf);
@@ -8,6 +7,8 @@
 :root {
     --orange: rgb(196, 103, 35);
     --lightblue: rgb(88, 153, 197);
+    --custom-font: 'face';
+    --text-font: 'Hind Siliguri';
 }
 
 .light-blue {
@@ -22,23 +23,23 @@
 /* General Styles */
 
 h1 {
-    font-family: 'face';
+    font-family: var(--custom-font);
     color: var(--orange);
 }
 
 h2 {
     margin-top: 80px;
     color: var(--orange);
-    font-family: 'Hind Siliguri';
+    font-family: var(--text-font);
     font-weight: 300;
 }
 
 p {
     color: var(--lightblue);
-} 
+}
 
 button {
-    font-family: 'Hind Siliguri';
+    font-family: var(--text-font);
     padding: 2px 30px;
     margin: 0px 20px;
     outline: none;
@@ -115,7 +116,7 @@ header {
     margin-top: -70px;
     margin-left: 200px;
     color: var(--orange);
-    font-family: 'Hind Siliguri';
+    font-family: var(--text-font);
     font-weight: 300;
     float: right;
 }
@@ -126,7 +127,7 @@ header {
     padding: 0 0 100px;
 }
 
-.heading_two h2{
+.heading_two h2 {
     margin-top: 200px;
 }
 
@@ -181,13 +182,13 @@ header {
 
 .block h2 {
     margin: 40px 0;
-    font-family: 'face';
+    font-family: var(--custom-font);
     color: white;
     text-align: center;
 }
 
 .block p {
-    font-family: 'Hind Siliguri';
+    font-family: var(--text-font);
     color: white;
     text-align: center;
 }
@@ -352,7 +353,7 @@ footer button:hover {
     .heading_eight {
         background-position-y: 450px;
     }
-    .heading_nine img{
+    .heading_nine img {
         width: 100%;
         margin-top: -200px;
     }
@@ -378,7 +379,7 @@ footer button:hover {
     #header_portrait {
         width: 20rem;
     }
-    .heading_two h2{
+    .heading_two h2 {
         margin-top: 0;
     }
     .heading_four h2 {
@@ -396,7 +397,7 @@ footer button:hover {
     .heading_six {
         margin-bottom: 100px;
     }
-    .heading_nine img{
+    .heading_nine img {
         width: 50%;
     }
     footer img {
