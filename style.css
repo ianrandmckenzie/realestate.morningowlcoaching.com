@@ -59,6 +59,7 @@ button.button_outline {
 }
 
 /* Header */
+
 header {
     background-image: url(/images/new_mountain.jpg);
     background-position: center;
@@ -111,14 +112,17 @@ header {
 }
 
 /* Heading Two */
+
 .heading_two {
     padding: 0 0 100px;
 }
+
 .heading_two h2{
     margin-top: 200px;
 }
 
 /* CTA */
+
 .CTA {
     background-color: var(--orange);
 }
@@ -210,6 +214,25 @@ header {
 
 /* Heading Six */
 
+.heading_six {
+    padding: 100px auto;
+    background-image: url(/Images/leaves4.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 50px;
+    background-size: calc(10% + 10rem);
+}
+
+.heading_six img {
+    margin-top: 200px;
+    box-shadow: 20px 30px 0 var(--orange);
+    margin-bottom: 100px;
+}
+
+.heading_six h2 {
+    margin-top: 500px;
+}
+
 /*----------------------------------------------------------------------------------------*/
 
 /* Media Queries */
@@ -242,5 +265,11 @@ header {
     }
     .block:nth-of-type(3) {
         margin-bottom: 50px;
+    }
+    .heading_six h2 {
+        margin-top: 0px;
+    }
+    .heading_six {
+        margin-bottom: 100px;
     }
 }
