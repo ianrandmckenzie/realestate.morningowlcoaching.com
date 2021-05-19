@@ -239,21 +239,17 @@ header {
 
 /* Heading Seven */
 
-.heading_seven {
-    z-index: 10;
-}
-
 .heading_seven h2 {
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 50px!important;
+    text-align: center!important;
     color: white;
 }
 
 .heading_seven p {
     color: white;
-    text-align: center;
-    width: 60%;
-    margin: 0 auto 20px;
+    text-align: center!important;
+    width: 60%!important;
+    margin: 0 auto 20px!important;
 }
 
 .heading_seven button#button_outline {
@@ -263,9 +259,36 @@ header {
     color: white;
 }
 
+/* Header Eight */
+
+.heading_eight {
+    background-image: url(/images/stock_bird.jpg);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: calc(10% + 15vw);
+    height: 800px;
+    margin-bottom: 250px;
+}
+
+.heading_eight h2 {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.heading_eight p {
+    margin-left: 50px;
+    width: 50%;
+}
+
 /*----------------------------------------------------------------------------------------*/
 
 /* Media Queries */
+
+@media (max-width: 992px) {
+    .heading_eight {
+        background-position-y: 450px;
+    }
+}
 
 @media (max-width: 770px) {
     .first_quotation, .second_quotation {
@@ -302,4 +325,5 @@ header {
     .heading_six {
         margin-bottom: 100px;
     }
+    
 }
