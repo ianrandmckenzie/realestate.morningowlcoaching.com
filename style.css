@@ -242,6 +242,7 @@ header {
 .heading_seven h2 {
     margin-top: 50px!important;
     text-align: center!important;
+    margin-left: 0!important;
     color: white;
 }
 
