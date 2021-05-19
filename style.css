@@ -10,6 +10,10 @@
     --lightblue: rgb(88, 153, 197);
 }
 
+.light-blue {
+    background-color: var(--lightblue);
+}
+
 /* General Styles */
 
 h1 {
@@ -231,6 +235,32 @@ header {
 
 .heading_six h2 {
     margin-top: 500px;
+}
+
+/* Heading Seven */
+
+.heading_seven {
+    z-index: 10;
+}
+
+.heading_seven h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.heading_seven p {
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 20px;
+}
+
+.heading_seven button#button_outline {
+    margin: 0 0 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
 }
 
 /*----------------------------------------------------------------------------------------*/
