@@ -14,6 +14,11 @@
     background-color: var(--lightblue);
 }
 
+.tinted {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
 /* General Styles */
 
 h1 {
@@ -281,6 +286,64 @@ header {
     width: 50%;
 }
 
+/* Heading Nine */
+
+.heading_nine {
+    background-image: url(/images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading_nine img {
+    margin-top: -300px;
+    box-shadow: 20px 30px 0 var(--orange);
+}
+
+.heading_nine h2 {
+    margin-top: 100px;
+    color: white;
+}
+
+.heading_nine p {
+    color: white;
+}
+
+.heading_nine button {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.heading_nine button.button_outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Footer */
+
+footer img {
+    width: calc(10rem + 10vw);
+    margin-bottom: -100px;
+}
+
+footer a, footer p {
+    color: white;
+    font-size: 90%;
+}
+
+footer button {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    margin-top: 100px!important;
+    margin-bottom: 10px!important;
+}
+
+footer button:hover {
+    color: black;
+    cursor: pointer;
+}
+
 /*----------------------------------------------------------------------------------------*/
 
 /* Media Queries */
@@ -288,6 +351,13 @@ header {
 @media (max-width: 992px) {
     .heading_eight {
         background-position-y: 450px;
+    }
+    .heading_nine img{
+        width: 100%;
+        margin-top: -200px;
+    }
+    .heading_nine button {
+        margin: 0 0 50px!important;
     }
 }
 
@@ -326,5 +396,14 @@ header {
     .heading_six {
         margin-bottom: 100px;
     }
-    
+    .heading_nine img{
+        width: 50%;
+    }
+    footer img {
+        margin-bottom: -50px;
+    }
+    footer button {
+        margin-top: 25px!important;
+        margin-bottom: 25px!important;
+    }
 }
