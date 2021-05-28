@@ -92,6 +92,20 @@ header {
     box-shadow: -20px 30px 0 var(--orange);
 }
 
+.social_icons {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.social_icon {
+    margin: 0 10px;
+}
+
+.social_icon:hover {
+    fill: var(--orange);
+}
+
 /* --------------------------- Quote Area --------------------------- */
 
 .quote {
