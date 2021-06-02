@@ -144,6 +144,11 @@ header {
 
 .heading_two h2 {
     margin-top: 200px;
+    width: 80%;
+}
+
+.heading_two p {
+    width: 80%;
 }
 
 /* --------------------------- CTA --------------------------- */
@@ -397,6 +402,10 @@ footer button:hover {
     h1 {
         font-size: 2rem;
     }
+    .social_icons {
+        right: 4%;
+        top: 2%;
+    }
     .quote {
         padding-top: 50px;
     }
@@ -405,11 +414,17 @@ footer button:hover {
         margin-left: 150px;
     }
     #header_portrait {
-        width: 20rem;
+        width: 23rem;
         height: 25rem;
     }
     .heading_two h2 {
         margin-top: 0;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .heading_two p {
+        width: 90%;
+        padding: 0 20px;
     }
     .heading_four h2 {
         margin-top: 75px;
