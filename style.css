@@ -187,6 +187,10 @@ header {
     width: 80%;
 }
 
+.heading_four ol, .heading_four ul, .heading_four li {
+    color: var(--lightblue);
+}
+
 /* --------------------------- Blocks --------------------------- */
 
 .blocks {
@@ -383,6 +387,9 @@ footer button:hover {
 /* Media Queries */
 
 @media (max-width: 992px) {
+    .heading_four .page_image {
+        height: 30rem;
+    }
     .heading_eight {
         background-position-y: 450px;
     }
