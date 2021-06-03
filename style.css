@@ -87,7 +87,7 @@ header {
 }
 
 #header_portrait {
-    width: 30rem;
+    width: 32rem;
     height: 35rem;
     margin-top: -200px;
     box-shadow: -20px 30px 0 var(--orange);
