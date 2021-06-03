@@ -428,6 +428,11 @@ footer button:hover {
         width: 23rem;
         height: 25rem;
     }
+    .buttonContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .heading_two h2 {
         margin-top: 0;
         width: 90%;
@@ -464,5 +469,8 @@ footer button:hover {
     footer button {
         margin-top: 25px!important;
         margin-bottom: 25px!important;
+    }
+    .pad5 {
+        padding: 0 5%;
     }
 }
