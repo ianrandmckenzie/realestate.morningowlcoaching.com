@@ -307,8 +307,8 @@ ol, ul, li {
     background-repeat: no-repeat;
     background-position: 80%;
     background-size: calc(10% + 15vw);
-    height: 800px;
-    margin-bottom: 250px;
+    height: auto;
+    margin-bottom: 350px;
 }
 
 .heading_eight h2 {
@@ -459,6 +459,9 @@ footer button:hover {
     }
     .heading_six .page_image {
         height: auto;
+    }
+    .heading_eight {
+        margin-bottom: 200px;
     }
     .heading_nine img {
         width: 50%;
