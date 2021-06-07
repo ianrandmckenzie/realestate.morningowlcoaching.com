@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @font-face {
     font-family: face;
     src: url(Winlove.ttf);
+}
+@font-face {
+    font-family: hind;
+    src: url(HindSiliguri-Regular.ttf);
 }
 
 :root {
     --orange: rgb(196, 103, 35);
     --lightblue: rgb(88, 153, 197);
     --custom-font: 'face';
-    --text-font: 'Hind Siliguri';
+    --text-font: 'hind';
 }
 
 .light-blue {
@@ -36,6 +39,7 @@ h2 {
 
 p {
     color: var(--lightblue);
+    font-family: var(--text-font);
 }
 
 button {
@@ -44,6 +48,7 @@ button {
     margin: 0px 20px;
     outline: none;
     border: 2px solid var(--orange);
+    cursor: pointer;
 }
 
 button:focus {
@@ -359,6 +364,10 @@ ol, ul, li {
 }
 
 /* --------------------------- Footer --------------------------- */
+
+footer {
+    padding: 2.5%;
+}
 
 footer img {
     width: calc(10rem + 10vw);
