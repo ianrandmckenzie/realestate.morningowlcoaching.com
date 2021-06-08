@@ -9,13 +9,13 @@
 
 :root {
     --orange: rgb(196, 103, 35);
-    --lightblue: rgb(88, 153, 197);
+    --lightblue: rgb(80, 111, 130);
     --custom-font: 'face';
     --text-font: 'hind';
 }
 
 .light-blue {
-    background-color: var(--lightblue);
+    background-color: rgb(161, 198, 224);
 }
 
 .tinted {
@@ -274,10 +274,6 @@ ol, ul, li {
     margin-bottom: 100px;
 }
 
-.heading_six h2 {
-    margin-top: 500px;
-}
-
 .heading_six .page_image {
     width: 80%;
 }
@@ -293,7 +289,7 @@ ol, ul, li {
 
 .heading_seven p {
     color: white;
-    text-align: center!important;
+    text-align: left!important;
     width: 60%!important;
     margin: 0 auto 20px!important;
 }
@@ -311,6 +307,7 @@ ol, ul, li {
     background-image: url(images/AdobeStock_268982092.webp);
     background-repeat: no-repeat;
     background-position: 80%;
+    background-position-y: 50px;
     background-size: calc(10% + 15vw);
     height: auto;
     margin-bottom: 350px;
