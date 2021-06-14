@@ -76,7 +76,7 @@ button.button_outline {
 /* --------------------------- Header --------------------------- */
 
 header {
-    background-image: linear-gradient(to bottom, rgba(106, 165, 189, 0.85), rgba(82, 82, 82, 0.85)), url(images/stock_lake4.jpeg);
+    background-image: url(images/Header_Image.webp);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,8 +92,8 @@ header {
 }
 
 #header_portrait {
-    width: 32rem;
-    height: 35rem;
+    width: 300px;
+    height: 450px;
     margin-top: -200px;
     box-shadow: -20px 30px 0 var(--orange);
 }
@@ -102,6 +102,12 @@ header {
     position: absolute;
     right: 10%;
     top: 5%;
+}
+
+.footer_social_icons {
+    position: absolute;
+    right: 3%;
+    margin-top: 20px;
 }
 
 .social_icon {
@@ -184,12 +190,9 @@ header {
     margin: 50px auto;
 }
 
-.heading_four h2 {
-    margin-top: 300px;
-}
-
 .heading_four .page_image {
-    width: 80%;
+    width: 350px;
+    height: 500px;
 }
 
 ol, ul, li {
@@ -199,10 +202,10 @@ ol, ul, li {
 /* --------------------------- Blocks --------------------------- */
 
 .blocks {
-    background-image: url(images/AdobeStock_268982092.webp);
-    background-size: contain;
+    background-image: url(images/Image_3.webp);
+    background-size: 300px;
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: 110%;
     height: auto;
     margin: 50px auto;
     padding: 25px 0;
@@ -261,17 +264,19 @@ ol, ul, li {
 
 .heading_six {
     padding: 100px auto;
-    background-image: url(images/AdobeStock_317392639.webp);
+    background-image: url(images/Image_4.webp);
     background-repeat: no-repeat;
-    background-position-x: 10%;
+    background-position-x: 20%;
     background-position-y: 50px;
-    background-size: calc(10% + 10rem);
+    background-size: 300px;
 }
 
 .heading_six img {
     margin-top: 200px;
     box-shadow: 20px 30px 0 var(--orange);
     margin-bottom: 100px;
+    width: 300px!important;
+    height: 450px;
 }
 
 .heading_six .page_image {
@@ -304,36 +309,33 @@ ol, ul, li {
 /* --------------------------- Header Eight --------------------------- */
 
 .heading_eight {
-    background-image: url(images/AdobeStock_268982092.webp);
+    background-image: url(images/Image_6.webp);
     background-repeat: no-repeat;
     background-position: 80%;
     background-position-y: 50px;
-    background-size: calc(10% + 15vw);
+    background-size: 300px;
     height: auto;
     margin-bottom: 350px;
 }
 
 .heading_eight h2 {
     margin-top: 200px;
-    margin-left: 50px;
-}
-
-.heading_eight p {
-    margin-left: 50px;
-    width: 50%;
 }
 
 /* --------------------------- Heading Nine --------------------------- */
 
 .heading_nine {
-    background-image: url(images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.webp);
+    background-image: url(images/Image_Above_Footer.webp);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heading_nine img {
     margin-top: -300px;
     box-shadow: 20px 30px 0 var(--orange);
+    width: 300px!important;
+    height: 450px!important;
 }
 
 .heading_nine h2 {
@@ -394,17 +396,10 @@ footer button:hover {
 /* Media Queries */
 
 @media (max-width: 992px) {
-    .heading_four .page_image {
-        height: 30rem;
-    }
-    .heading_six .page_image {
-        height: 26rem;
-    }
     .heading_eight {
-        background-position-y: 450px;
+        background-position-y: 140px;
     }
     .heading_nine img {
-        width: 100%;
         margin-top: -200px;
     }
     .heading_nine button {
@@ -429,10 +424,6 @@ footer button:hover {
     #quote_p {
         margin-top: 0;
         margin-left: 150px;
-    }
-    #header_portrait {
-        width: 23rem;
-        height: 25rem;
     }
     .buttonContainer {
         display: flex;
@@ -463,14 +454,11 @@ footer button:hover {
     .heading_six {
         margin-bottom: 100px;
     }
-    .heading_six .page_image {
-        height: auto;
-    }
     .heading_eight {
         margin-bottom: 200px;
     }
-    .heading_nine img {
-        width: 50%;
+    .heading_eight {
+        background-position-y: 200px;
     }
     footer img {
         margin-bottom: -50px;
