@@ -10,12 +10,13 @@
 :root {
     --orange: rgb(196, 103, 35);
     --lightblue: rgb(80, 111, 130);
+    --blueBG: rgb(161, 198, 224);
     --custom-font: 'face';
     --text-font: 'hind';
 }
 
 .light-blue {
-    background-color: rgb(161, 198, 224);
+    background-color: var(--blueBG);
 }
 
 .tinted {
@@ -49,6 +50,7 @@ button {
     outline: none;
     border: 2px solid var(--orange);
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 button:focus {
@@ -70,7 +72,7 @@ button.button_outline {
 }
 
 .page_image {
-    box-shadow: -20px 30px 0 var(--orange);
+    box-shadow: -20px 20px 0 var(--orange);
 }
 
 /* --------------------------- Header --------------------------- */
@@ -95,7 +97,7 @@ header {
     width: 300px;
     height: 450px;
     margin-top: -200px;
-    box-shadow: -20px 30px 0 var(--orange);
+    box-shadow: -20px 20px 0 var(--orange);
 }
 
 .social_icons {
@@ -191,8 +193,8 @@ header {
 }
 
 .heading_four .page_image {
-    width: 350px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
 }
 
 ol, ul, li {
@@ -212,7 +214,7 @@ ol, ul, li {
 }
 
 .block {
-    background-color: lightblue;
+    background-color: var(--blueBG);
     margin: 50px 20px 0;
     width: 300px;
     height: auto;
@@ -273,7 +275,7 @@ ol, ul, li {
 
 .heading_six img {
     margin-top: 200px;
-    box-shadow: 20px 30px 0 var(--orange);
+    box-shadow: 20px 20px 0 var(--orange);
     margin-bottom: 100px;
     width: 300px!important;
     height: 450px;
@@ -333,7 +335,7 @@ ol, ul, li {
 
 .heading_nine img {
     margin-top: -300px;
-    box-shadow: 20px 30px 0 var(--orange);
+    box-shadow: 20px 20px 0 var(--orange);
     width: 300px!important;
     height: 450px!important;
 }
@@ -378,6 +380,10 @@ footer a, footer p {
     font-size: 90%;
 }
 
+footer p {
+    text-align: left;
+}
+
 footer button {
     background-color: transparent;
     color: white;
@@ -389,6 +395,20 @@ footer button {
 footer button:hover {
     color: black;
     cursor: pointer;
+}
+
+.big_quote_one {
+    background-image: url(images/Quotation_Mark_1.webp);
+    background-repeat: no-repeat;
+    background-position-x: -400px;
+    background-position-y: 50%;
+}
+
+.big_quote_two {
+    background-image: url(images/Quotation_Mark_2.webp);
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+    background-position-y: 50%;
 }
 
 /*---------------------------------------------------------------*/
