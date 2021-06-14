@@ -136,7 +136,7 @@ footer .social_icon:hover {
 }
 
 .quotations {
-    width: 100px;
+    width: 120px;
 }
 
 .first_quotation {
@@ -401,7 +401,7 @@ footer button {
     background-image: url(images/Quotation_Mark_1.webp);
     background-repeat: no-repeat;
     background-position-x: -400px;
-    background-position-y: 50%;
+    background-position-y: 30%;
 }
 
 .big_quote_two {
@@ -409,6 +409,11 @@ footer button {
     background-repeat: no-repeat;
     background-position-x: 130%;
     background-position-y: 50%;
+}
+
+#back-to-top {
+    font-weight: 300;
+    padding: 0;
 }
 
 /*---------------------------------------------------------------*/
