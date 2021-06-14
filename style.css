@@ -120,6 +120,14 @@ header {
     fill: var(--orange);
 }
 
+footer .social_icon {
+    margin: 0 10px;
+}
+
+footer .social_icon:hover {
+    fill: white;
+}
+
 /* --------------------------- Quote Area --------------------------- */
 
 .quote {
@@ -349,19 +357,21 @@ ol, ul, li {
     color: white;
 }
 
-.heading_nine button {
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
-
-.heading_nine button.button_outline {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
 .heading_nine .page_image {
     width: 80%;
+}
+
+.heading_nine li {
+    color: white;
+}
+
+.heading_nine ul {
+    margin-bottom: 50px;
+}
+
+.heading_nine .black {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding
 }
 
 /* --------------------------- Footer --------------------------- */
