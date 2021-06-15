@@ -363,10 +363,19 @@ ol, ul, li {
 }
 
 .heading_nine .black {
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     padding: 20px;
     margin-bottom: 40px;
     margin-top: 40px;
+}
+
+.blackBG {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container-fluid {
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 /* --------------------------- Footer --------------------------- */
