@@ -425,6 +425,13 @@ footer button {
     padding: 0;
 }
 
+/* Credentials Area */
+
+.credentials img {
+    width: 13.7%;
+    margin-top: 50px;
+}
+
 /*---------------------------------------------------------------*/
 
 /* Media Queries */
@@ -447,6 +454,12 @@ footer button {
     }
     footer p:nth-of-type(1) {
         margin-bottom: 0;
+    }
+    .credentials img {
+        width: 24%;
+    }
+    .credentials img.creds {
+        width: 32.9%;
     }
 }
 
@@ -512,5 +525,11 @@ footer button {
     }
     .pad5 {
         padding: 0 5%;
+    }
+    .credentials img {
+        width: 24%;
+    }
+    .credentials img.creds {
+        width: 32%;
     }
 }
