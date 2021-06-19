@@ -458,9 +458,11 @@ footer button {
     .credentials img {
         width: 49%;
         padding: 5%;
+        margin: 0;
     }
     .credentials img.creds {
         width: 32.9%;
+        padding: 2%;
     }
 }
 
@@ -529,6 +531,7 @@ footer button {
     }
     .credentials img {
         width: 49%;
+        margin: 0;
     }
     .credentials img.creds {
         width: 32%;
