@@ -315,7 +315,7 @@
 						  </svg><br>BACK TO TOP</button>
 					</div>
 					<div class="col-md-3 d-flex justify-content-center flex-column">
-						<p>humanisticrealty@2023</p>
+						<p>humanisticrealty@<span id="copyYear">2024</span></p>
 					</div>
 					<div class="footer_social_icons">
 						<a href="https://www.facebook.com/morningowlcoaching"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
@@ -354,6 +354,10 @@
 				$("html, body").animate({ scrollTop: 0 }, "slow");
 				return false;
 			});
+		});
+		// Keep © year up-to-date
+		document.addEventListener('DOMContentLoaded', () => {
+  			document.getElementById('copyYear').textContent = new Date().getFullYear();
 		});
 	</script>
 </body>
